@@ -1,15 +1,6 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
-body {
-  background-color: #17191d;
-  color: #fff;
-}
-.loginbox {
-  background: #fff;
-  color: #17191d;
-  height: 60vh;
-  width: 60vh;
-  border-radius: 1.2vh;
-}
+
