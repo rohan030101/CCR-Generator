@@ -3,4 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 2px;
+}
+.formwarpper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 38vw;
+  background-color: #0a1819;
+  padding: 3rem 2.5rem 2.5rem;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+input {
+  margin: 0.7rem;
+  padding: 0.6rem;
+  border-radius: 1rem;
+  border: none;
+}
+.submit-btn {
+  align-self: center;
+  background: #fff;
+  padding: 0.6rem;
+  width: 10vw;
+  border-radius: 1rem;
+  margin: 0.3rem;
+}
+.submit-btn:hover {
+  color: white;
+  background-color: black;
+}
