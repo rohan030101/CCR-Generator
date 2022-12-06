@@ -8,23 +8,68 @@
     <link rel="stylesheet" href="./main.css" />
   </head>
   <body>
-    <div class="leftside">
-      <form action="submit">
-        <h2>Enter Details</h2>
-        <label for="employee_name">Employee Name</label>
-        <input type="text" class="input-text" />
-        <label for="dept">Department</label>
-        <input type="text" class="input-text" />
-        <label for="cmp_Snno">Computer Serial No.</label>
-        <input type="text" class="input-text" />
-        <label for="employee_name">Desc1</label>
-        <textarea name="desc1" id="" cols="30" rows="10"></textarea>
-        <label for="employee_name">Desc1</label>
-        <textarea name="desc1" id="" cols="30" rows="10"></textarea>
-        <label for="employee_name">Desc1</label>
-        <textarea name="desc1" id="" cols="30" rows="10"></textarea>
-      </form>
+    <div class="enterdetailspage">
+      <div class="leftside">
+        <form action="submit">
+          <h2><u>Enter Details</u></h2>
+          <div class="forminput">
+            <label for="employee_name">Employee Name</label>
+            <input type="text" class="input-text" />
+          </div>
+          <div class="forminput">
+            <label for="dept">Department</label>
+            <select name="cars" id="cars" class="input-text">
+              <option value="DEPT1"></option>
+              <option value="DEPT1">DEPT1</option>
+              <option value="dept2">DEPT2</option>
+              <option value="opel">DEPT3</option>
+              <option value="audi">DEPT4</option>
+            </select>
+          </div>
+          <div class="forminput">
+            <label for="cmp_Snno">Computer Serial No.</label>
+            <input type="text" class="input-text" />
+          </div>
+          <div class="forminput">
+            <label for="employee_name">Desc1</label>
+            <textarea
+              name="desc1"
+              id=""
+              cols="30"
+              rows="10"
+              class="input-text"
+            ></textarea>
+          </div>
+          <div class="forminput">
+            <label for="employee_name">Desc1</label>
+            <textarea
+              name="desc1"
+              id=""
+              cols="30"
+              rows="10"
+              class="input-text"
+            ></textarea>
+          </div>
+          <div class="forminput">
+            <label for="employee_name">Desc1</label>
+            <textarea
+              name="desc1"
+              id=""
+              cols="30"
+              rows="10"
+              class="input-text"
+            ></textarea>
+          </div>
+          <div class="forminput">
+            <button class="generateccr" onclick="generateCcr()">
+              Generate CCR
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="rightside">
+        <span>This is preview side.</span>
+      </div>
     </div>
-    <div class="rightside"></div>
   </body>
 </html>

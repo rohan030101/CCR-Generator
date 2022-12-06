@@ -44,3 +44,60 @@ h2 {
   color: white;
   background-color: black;
 }
+.enterdetailspage {
+  background-color: #fff;
+  color: #01090c;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+label {
+  font-size: large;
+}
+.leftside {
+  /* display: flex; */
+  /* align-items: center; */
+  margin: 0.8em;
+  width: 50%;
+  overflow: auto;
+  /* border: 2px solid black; */
+}
+.leftside::-webkit-scrollbar {
+  display: none;
+}
+.leftside h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.leftside .forminput {
+  margin: 0.7em;
+  padding: 0.3em;
+}
+.rightside {
+  text-align: center;
+  margin: 0.8em;
+  width: 50%;
+  border: 2px solid grey;
+}
+.input-text {
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid grey;
+  outline: none;
+  margin: 0.4em;
+  padding: 1em;
+  border-radius: 0.8em;
+  font-size: medium;
+}
+.generateccr {
+  background-color: rgb(190, 190, 190);
+
+  background-color: rgb(180, 172, 172);
+  color: black;
+  border: none;
+  padding: 1.2em;
+}
+.generateccr:hover {
+  background-color: rgb(180, 172, 172);
+  color: white;
+}
