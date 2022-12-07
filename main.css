@@ -53,6 +53,7 @@ h2 {
 }
 label {
   font-size: large;
+  /* text-align: center; */
 }
 .leftside {
   /* display: flex; */
@@ -73,6 +74,11 @@ label {
   margin: 0.7em;
   padding: 0.3em;
 }
+.firsttwo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .rightside {
   text-align: center;
   margin: 0.8em;
@@ -86,7 +92,7 @@ label {
   outline: none;
   margin: 0.4em;
   padding: 1em;
-  border-radius: 2em;
+  /* border-radius: 2em; */
   background-color: rgb(228, 218, 218);
   font-size: medium;
 }
