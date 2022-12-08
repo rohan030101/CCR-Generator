@@ -10,22 +10,22 @@
   <body>
     <div class="enterdetailspage">
       <div class="leftside">
-        <!-- <form action=""> -->
+        <form action="" id="ccrdetailsform ">
           <h2><u>Enter Details</u></h2>
           <div class="forminput firsttwo">
-            <label for="CCR.No">CCR No.</label>
-            <input type="text" class="input-text"  id="ccr_no" />
-            <label for="Date" id="date">Date</label>
+            <label for="CCR.No">CCR No:-</label>
+            <input type="text" class="input-text" id="ccr_no" />
+            <label for="Date">Date:-</label>
             <input type="date" class="input-text" id="date" />
           </div>
           <div class="forminput">
-            <label for="employee_name"> Employee Name </label>
+            <label for="employee_name"> Employee Name:- </label>
             <input type="text" class="input-text" id="employee_name" />
           </div>
           <div class="forminput">
-            <label for="dept">Department</label>
+            <label for="dept">Department:-</label>
             <select name="cars" id="department" class="input-text">
-              <option value="none"> Select Option </option>
+              <option value="none">Select Option</option>
               <option value="TIME OFFICE">TIME OFFICE</option>
               <option value="DRAWING OFFICE">DRAWING OFFICE</option>
               <option value="CANTEEN">CANTEEN</option>
@@ -47,48 +47,51 @@
             </select>
           </div>
           <div class="forminput">
-            <label for="cmp_Snno">Computer Serial No.</label>
-            <input type="text" class="input-text" id="cmp_serial"/>
+            <label for="cmp_Snno">Computer Serial No:-</label>
+            <input type="text" class="input-text" id="cmp_serial" />
           </div>
           <div class="forminput">
-            <label for="eqp_details" id="eqp_details">Equipment Details</label>
-            <textarea
-              name="desc1"
-              id=""
-              cols="30"
-              rows="10"
-              class="input-text"
-            ></textarea>
+            <label for="eqp_details" id="eqp_details"
+              >Equipment Details:-</label
+            >
+            <textarea name="desc1" id="" cols="30" rows="10" class="input-text">
+            </textarea>
           </div>
           <div class="forminput">
-            <label for="call_status">Call Status</label>
+            <label for="call_status">Call Status:-</label>
             <textarea
               name="desc1"
               id="call_status"
               cols="30"
               rows="10"
               class="input-text"
-            ></textarea>
+            >
+            </textarea>
           </div>
           <div class="forminput">
-            <label for="Remark">Remark</label>
+            <label for="Remark">Remark:-</label>
             <textarea
               name="desc1"
               id="remark"
               cols="30"
               rows="10"
               class="input-text"
-            ></textarea>
+            >
+            </textarea>
           </div>
           <div class="forminput">
-            <button class="generateccr" id="generateccr" onclick="generate_ccr()">
-              Generate CCR
+            <button
+              class="generateccr"
+              id="generateccr"
+              onclick="generate_ccr()"
+            >
+              Generate
             </button>
           </div>
-        <!-- </form> -->
+        </form>
       </div>
       <div class="rightside">
-        <span>This is preview side.</span>
+        <span id="preview">This is preview side.</span>
       </div>
     </div>
   </body>
