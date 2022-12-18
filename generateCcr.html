@@ -9,84 +9,64 @@
   </head>
   <body>
     <div class="enterdetailspage">
-      <div class="leftside">
-        <!-- <form action="" id="ccrdetailsform "> -->
-        <h2><u>Enter Details</u></h2>
-        <div class="forminput firsttwo">
-          <label for="CCR.No">CCR No:-</label>
-          <input type="text" class="input-text" id="ccr_no" />
-          <label for="Date">Date:-</label>
-          <input type="date" class="input-text" id="date" />
-        </div>
-        <div class="forminput">
-          <label for="employee_name"> Employee Name:- </label>
-          <input type="text" class="input-text" id="employee_name" />
-        </div>
-        <div class="forminput">
-          <label for="dept">Department:-</label>
-          <select name="cars" id="department" class="input-text">
-            <option value="none">Select Option</option>
-            <option value="TIME OFFICE">TIME OFFICE</option>
-            <option value="DRAWING OFFICE">DRAWING OFFICE</option>
-            <option value="CANTEEN">CANTEEN</option>
-            <option value="Material">Material</option>
-            <option value="VMS">VMS</option>
-            <option value="CUTTING">CUTTING</option>
-            <option value="GM PA SAP">GM PA SAP</option>
-            <option value="LEENA NAIR">LEENA NAIR</option>
-            <option value="CAHIER">CAHIER</option>
-            <option value="MARKETING">MARKETING</option>
-            <option value="ADMIN/FINANCE">ADMIN/FINANCE</option>
-            <option value="W & M LAB">W & M LAB</option>
-            <option value="ANNEALING">ANNEALING</option>
-            <option value="GM PA">GM PA</option>
-            <option value="GM CABIN">GM CABIN</option>
-            <option value="GM HOUSE">GM HOUSE</option>
-            <option value="GM OFFICE">GM OFFICE</option>
-            <option value="HR ADMIN">HR ADMIN</option>
-          </select>
-        </div>
-        <div class="forminput">
-          <label for="cmp_Snno">Computer Serial No:-</label>
-          <input type="text" class="input-text" id="cmp_serial" />
-        </div>
-        <div class="forminput">
-          <label for="eqp_details" id="eqp_details">Equipment Details:-</label>
-          <textarea name="desc1" id="" cols="30" rows="10" class="input-text">
-          </textarea>
-        </div>
-        <div class="forminput">
-          <label for="call_status">Call Status:-</label>
-          <textarea
-            name="desc1"
-            id="call_status"
-            cols="30"
-            rows="10"
-            class="input-text"
-          >
-          </textarea>
-        </div>
-        <div class="forminput">
-          <label for="Remark">Remark:-</label>
-          <textarea
-            name="desc1"
-            id="remark"
-            cols="30"
-            rows="10"
-            class="input-text"
-          >
-          </textarea>
-        </div>
-        <div class="forminput">
-          <button class="generateccr" id="generateccr" onclick="pushdata()">
-            Generate
-          </button>
-        </div>
-        <!-- </form> -->
+      <!-- <form action="" id="ccrdetailsform "> -->
+      <h3>Enter Details</h3>
+      <div class="forminput">
+        <label for="CCR.No">CCR No:-</label>
+        <input type="text" class="input-text" id="ccr_no" />
       </div>
-      <div class="rightside">
-        <span id="preview">This is preview side.</span>
+      <div class="forminput">
+        <label for="Date">Date:-</label><br />
+        <input type="date" class="input-text" id="date" />
       </div>
+      <div class="forminput">
+        <label for="employee_name"> Employee Name:- </label>
+        <input type="text" class="input-text" id="employee_name" />
+      </div>
+      <div class="forminput">
+        <label for="dept">Department:-</label>
+        <select name="cars" id="department" class="input-text">
+          <option value="none">Select Option</option>
+          <option value="TIME OFFICE">TIME OFFICE</option>
+          <option value="DRAWING OFFICE">DRAWING OFFICE</option>
+          <option value="CANTEEN">CANTEEN</option>
+          <option value="Material">Material</option>
+          <option value="VMS">VMS</option>
+          <option value="CUTTING">CUTTING</option>
+          <option value="GM PA SAP">GM PA SAP</option>
+          <option value="LEENA NAIR">LEENA NAIR</option>
+          <option value="CAHIER">CAHIER</option>
+          <option value="MARKETING">MARKETING</option>
+          <option value="ADMIN/FINANCE">ADMIN/FINANCE</option>
+          <option value="W & M LAB">W & M LAB</option>
+          <option value="ANNEALING">ANNEALING</option>
+          <option value="GM PA">GM PA</option>
+          <option value="GM CABIN">GM CABIN</option>
+          <option value="GM HOUSE">GM HOUSE</option>
+          <option value="GM OFFICE">GM OFFICE</option>
+          <option value="HR ADMIN">HR ADMIN</option>
+        </select>
+      </div>
+      <div class="forminput">
+        <label for="cmp_Snno">Computer Serial No:-</label>
+        <input type="text" class="input-text" id="cmp_serial" />
+      </div>
+      <div class="forminput">
+        <label for="eqp_details" id="eqp_details">Equipment Details:-</label>
+        <textarea name="desc1" id="" class="input-text"> </textarea>
+      </div>
+      <div class="forminput">
+        <label for="call_status">Call Status:-</label>
+        <textarea name="desc1" id="call_status" class="input-text"> </textarea>
+      </div>
+      <div class="forminput">
+        <label for="Remark">Remark:-</label>
+        <textarea name="desc1" id="remark" class="input-text"> </textarea>
+      </div>
+      <div class="forminput">
+        <input type="submit" value="Generate" />
+      </div>
+      <!-- </form> -->
     </div>
   </body>
   <script src="./main.js"></script>
