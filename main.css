@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 h2 {
@@ -130,14 +131,18 @@ label {
   color: #0a150f;
 }
 */
-
+h3 {
+  color: white;
+  font-weight: 800;
+}
 .enterdetailspage {
   height: 70%;
   width: 50vh;
   border: #0a1819 2px solid;
   margin: 1em auto;
   padding: 1.3em;
-  background-color: #f2f2f2;
+  background-color: #1d1e22;
+  color: #f3f3f7;
   border-radius: 7px;
 }
 
@@ -148,17 +153,25 @@ label {
   padding: 0.8em;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  background-color: #1d1e22;
+  border: 1px solid #83858a;
+  margin: 0.3em;
+  color: #fff;
 }
-
+.input-text:focus {
+  outline: none !important;
+  border: 1px solid #2e40b9;
+  /* box-shadow: 0 0 10px #719ece; */
+}
 input[type="submit"] {
-  background-color: #3ea319;
+  background-color: #5168f4;
   color: white;
   padding: 0.8em;
   width: 100%;
   border-radius: 4px;
-  border: 1px solid #ccc;
+  border: none;
+  /* border: 1px s; */
 }
 input[type="submit"]:hover {
-  background-color: #97f675;
+  background-color: #1f36c4;
 }

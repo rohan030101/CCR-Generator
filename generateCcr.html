@@ -10,14 +10,14 @@
   <body>
     <div class="enterdetailspage">
       <!-- <form action="" id="ccrdetailsform "> -->
-      <h3>Enter Details</h3>
+      <h3>Enter CCR Details</h3>
       <div class="forminput">
         <label for="CCR.No">CCR No:-</label>
         <input type="text" class="input-text" id="ccr_no" />
       </div>
       <div class="forminput">
         <label for="Date">Date:-</label><br />
-        <input type="date" class="input-text" id="date" />
+        <input type="text" class="input-text" id="dt" />
       </div>
       <div class="forminput">
         <label for="employee_name"> Employee Name:- </label>
@@ -52,8 +52,8 @@
         <input type="text" class="input-text" id="cmp_serial" />
       </div>
       <div class="forminput">
-        <label for="eqp_details" id="eqp_details">Equipment Details:-</label>
-        <textarea name="desc1" id="" class="input-text"> </textarea>
+        <label for="eqp_details" id="">Equipment Details:-</label>
+        <textarea name="desc1" id="eqp_details" class="input-text"> </textarea>
       </div>
       <div class="forminput">
         <label for="call_status">Call Status:-</label>
@@ -64,11 +64,11 @@
         <textarea name="desc1" id="remark" class="input-text"> </textarea>
       </div>
       <div class="forminput">
-        <input type="submit" value="Generate" />
+        <input type="submit" value="Generate" onclick="generate_ccr()" />
       </div>
       <!-- </form> -->
     </div>
   </body>
   <script src="./main.js"></script>
-  <script src="./connection.js"></script>
+  <!-- <script src="./connection.js"></script> -->
 </html>
