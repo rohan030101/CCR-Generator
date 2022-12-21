@@ -1,7 +1,3 @@
-window.onload = function () {
-  get_Date();
-  console.log("onload");
-};
 function generate_ccr() {
   var ccr_no = document.getElementById("ccr_no").value;
   var date = document.getElementById("dt").value;
@@ -12,16 +8,7 @@ function generate_ccr() {
   var call_status = document.getElementById("call_status").value;
   var remark = document.getElementById("remark").value;
   var change = document.getElementById("preview");
-  //   change.innerHTML =
-  //     ccr_no +
-  //     date +
-  //     emp_name +
-  //     dept +
-  //     cmp_serial +
-  //     eqp_details +
-  //     call_status +
-  //     remark;
-  // console.log(call_status);
+
   console.log(ccr_no);
   console.log(date);
   console.log(emp_name);
@@ -30,9 +17,7 @@ function generate_ccr() {
   console.log(eqp_details);
   console.log(call_status);
   console.log(remark);
-  // console.log(change);
 }
-// console.log(generate_ccr());
 
 function getDate() {
   var today = new Date();
