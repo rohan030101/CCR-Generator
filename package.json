@@ -1,12 +1,8 @@
 {
-  "dependencies": {
-    "express": "^4.18.2",
-    "mongodb": "^4.13.0"
-  },
   "name": "ccr-generator",
-  "description": "This is a personal project for Office work. Basically I work as a IT-Engineer(Customer Support) at Indian Government Mint Mumbai and there is my duty which includes maintaining records for Computer Part/Etc Devices given to user(Employees). Which i do by making a document in which i Write their Name , Dept, Date,CCR_No, and take there signature. So am just making it digital for better maintenance and easy access.",
   "version": "1.0.0",
-  "main": "main.js",
+  "description": "This is a personal project for Office work. Basically I work as a IT-Engineer(Customer Support) at Indian Government Mint Mumbai and there is my duty which includes maintaining records for Computer Part/Etc Devices given to user(Employees). Which i do by making a document in which i Write their Name , Dept, Date,CCR_No, and take there signature. So am just making it digital for better maintenance and easy access.",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/rohan030101/CCR-Generator/issues"
   },
-  "homepage": "https://github.com/rohan030101/CCR-Generator#readme"
+  "homepage": "https://github.com/rohan030101/CCR-Generator#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0"
+  },
+  "devDependencies": {}
 }

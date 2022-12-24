@@ -4,9 +4,11 @@
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   box-sizing: border-box;
+  color: white;
 }
+
 body {
-  background-color: rgb(9, 8, 26);
+  /* background-color: rgb(9, 8, 26); */
 }
 h2 {
   font-size: 3rem;
@@ -80,3 +82,71 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #35e2bd;
 }
+
+/*************** Dashboard CSS starts here ******************* */
+.dashboard {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* border: 2px solid white; */
+  /* padding: 1em; */
+}
+.rightheading {
+  /* border: 2px solid blue; */
+  padding: 0.1em;
+  margin: 0.4em;
+  height: 7vh;
+}
+.rightpane {
+  /* border: 2px solid yellow */
+  background-color: #1d1e22;
+  width: 14vw;
+  /* padding: 0.4em 0; */
+  /* margin: 0.4em; */
+}
+.rightmenu {
+  /* border: 2px solid green; */
+  /* padding: 0.4em;
+  margin: 0.4em; */
+  align-items: center;
+}
+.menu {
+  list-style-type: none;
+}
+.menu .menuitems {
+  /* color: black; */
+  padding: 0.8em;
+  align-items: center;
+  /* background-color: white; */
+}
+.leftpane {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 0.4em;
+  padding: 0.2em;
+}
+.bar {
+  /* width: 100%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7%;
+  margin: 0.1em;
+  padding: 0.2em;
+  /* border: 2px solid rgb(16, 255, 203); */
+}
+.mainpane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+  height: 90%;
+  /* border: 2px solid white; */
+  margin: 0.1em;
+  padding: 0.4em;
+}
+/**
+************** Dashboard CSS ends here *****************************/
