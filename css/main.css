@@ -91,6 +91,19 @@ input[type="submit"]:hover {
   /* padding: 1em; */
   color: white;
 }
+
+.menuitems {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuitems img {
+  height: 5vh;
+}
+svg {
+  fill: white;
+}
+
 .rightheading {
   /* border: 2px solid blue; */
   display: flex;
@@ -165,6 +178,7 @@ input[type="submit"]:hover {
 }
 .logout:hover {
   background-color: rgb(29, 155, 128);
+  cursor: pointer;
 }
 .mainpane {
   display: flex;
