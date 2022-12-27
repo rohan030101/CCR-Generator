@@ -5,7 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/css/main.css" />
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.1.1/chart.js"
+      integrity="sha512-64PuQoA1/rGxeXwhWJRNZl25TjBPhQWeQ6x8h6UC54gQT7xFvTio//dLKg2MiAc3/4Tf+uoLKPzl+QuX87fssA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
     <title>Dashboard</title>
   </head>
   <body>
@@ -16,32 +28,39 @@
         </div>
         <div class="rightmenu">
           <ul class="menu">
-            <li class="menuitems"> <i class="fa-solid fa-square-poll-vertical"></i> Dashboard </li>
-            <li class="menuitems">Inventory</li>
-            <li class="menuitems">Generate CCR</li>
-            <li class="menuitems">Add items</li>
+            <li class="menuitems">
+              <i class="fa-solid fa-square-poll-vertical fa-1x"></i> Dashboard
+            </li>
+            <li class="menuitems">
+              <i class="fa-solid fa-boxes-stacked fa-1x"></i> Inventory
+            </li>
+            <li class="menuitems">
+              <i class="fa-solid fa-file-contract"></i> Generate CCR
+            </li>
+            <li class="menuitems">
+              <i class="fa-regular fa-plus"></i> Add items
+            </li>
           </ul>
         </div>
       </div>
       <div class="leftpane">
         <div class="bar">
-          <!-- <span>
-            This will have logout button, seachbar ,login username and and logo
-          </span>
-          this  will have logout button, seachbar ,login username and and logo -->
           <span class="sftName"> IMS </span>
-            <div class="rightbar">
-              <span class="userName"></span>Username</span>
-              <input class="logout" type="button" value="Logout" />
-            </div>
+          <div class="rightbar">
+            <span class="userName"> Username </span>
+            <input
+              class="logout"
+              onclick="addDiv()"
+              type="button"
+              value="Logout"
+            />
+          </div>
         </div>
         <div class="mainpane">
-          <span>
-            This will have all the graphs whcih shows Inventory count for
-            computer parts.Such as keyboard,mouse,lan card, ram etc.
-          </span>
+          <div id="upper"></div>
         </div>
       </div>
     </div>
+    <script src="/scripts/main.js"></script>
   </body>
 </html>

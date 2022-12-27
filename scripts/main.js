@@ -41,6 +41,16 @@ function getDate() {
   document.getElementById("dt").value = today;
 }
 
-window.onload = function () {
-  getDate();
-};
+// window.onload = function () {
+//   getDate();
+// };
+
+function addDiv() {
+  const div = document.createElement("div");
+  // div.className("databox");
+  div.innerHTML = "This is a div";
+  // div.id("dataBox");
+
+  const add = document.getElementById("upper");
+  add.appendChild(div);
+}

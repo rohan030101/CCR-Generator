@@ -100,9 +100,6 @@ input[type="submit"]:hover {
 .menuitems img {
   height: 5vh;
 }
-svg {
-  fill: white;
-}
 
 .rightheading {
   /* border: 2px solid blue; */
@@ -129,13 +126,19 @@ svg {
 .menu {
   list-style-type: none;
 }
-.menu .menuitems {
+
+.menuitems {
   /* color: black; */
   padding: 0.8em;
   align-items: center;
   border-bottom: 2px solid #0f0f13;
   transition: 0.2s ease-in-out;
   /* background-color: white; */
+  display: flex;
+  justify-content: left;
+}
+i {
+  padding-right: 0.4em;
 }
 .menuitems:hover {
   background-color: #666b7e;
@@ -157,7 +160,7 @@ svg {
   justify-content: space-between;
   align-items: center;
   height: 7vh;
-  margin: 0.1em;
+  /* margin: 0.1em; */
   padding: 0.2em;
   background-color: rgb(235, 229, 229);
   /* border: 2px solid rgb(16, 255, 203); */
