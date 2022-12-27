@@ -184,14 +184,19 @@ i {
   cursor: pointer;
 }
 .mainpane {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
   /* height: 100%; */
   height: 90%;
   /* border: 2px solid white; */
   margin: 0.1em;
   padding: 0.4em;
+}
+
+.Inventroy {
+  width: 20vw;
+  height: 20vh;
 }
 /**
 ************** Dashboard CSS ends here *****************************/
