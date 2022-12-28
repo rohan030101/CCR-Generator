@@ -225,6 +225,10 @@ i {
   font-weight: bold;
   text-align: center;
 }
+.heading {
+  font-weight: bolder;
+  font-size: x-large;
+}
 .recentccrlist {
   list-style-type: none;
 }
